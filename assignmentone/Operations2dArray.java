@@ -80,10 +80,22 @@ class OperationsMatrix{
             }
             System.out.println();
         }
+    }
 
+    void isSquareMatrix(int arr1[][]){
 
+        int row = arr1.length;
+        int column = arr1[0].length;
+
+        if(row == column){
+            System.out.println("It is a Square matrix");
+        }
+        else{
+            System.out.println("It is not a Square matrix");
+        }
 
     }
+
 
 }
 
@@ -97,12 +109,16 @@ public class Operations2dArray {
 
         int arr2[][] = {{1,2},{3,4}};
 
+        //int arr3[][] = {{1,2},{4,5},{7,8}};
+
 
         //obj.addition(arr1, arr2);
 
         //obj.subtraction(arr1, arr2);
 
         obj.multi(arr1, arr2);
+
+        //obj.isSquareMatrix(arr3);
 
     }
     
