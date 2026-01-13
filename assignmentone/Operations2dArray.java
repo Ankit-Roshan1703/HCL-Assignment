@@ -72,7 +72,7 @@ class OperationsMatrix{
             }
         }
 
-        System.out.println("product arr3of arr1 and arr2 is : ");
+        System.out.println("product of arr1 and arr2 is : ");
 
         for(int i=0; i<arr3.length; i++){
             for(int j=0; j<arr3[0].length; j++){
@@ -96,6 +96,86 @@ class OperationsMatrix{
 
     }
 
+    void isDiagonalMatrix(int arr[][]){
+
+        int row = arr.length;
+        int column = arr[0].length;
+
+        if(row != column){
+            System.out.println("Not a Digonal matrix ");
+            return;
+        }
+
+        boolean flag = true;
+
+        for(int i=0; i<row; i++){
+            for(int j=0; j<column; j++){
+                if(i != j && arr[i][j] != 0){
+                    flag = false;
+                }
+            }
+        }
+
+        if(flag){
+            System.out.println("Diagonal matrix");
+        }
+        else{
+            System.out.println(" Not a diagonal matrix ");
+        }
+    }
+
+    void identityMatrix(int arr[][]){
+        int row = arr.length;
+        int column = arr[0].length;
+
+        if(row != column){
+            System.out.println("Not a Digonal matrix ");
+            return;
+        }
+
+        boolean flag = true;
+
+        for(int i=0; i<row; i++){
+            for(int j=0; j<column; j++){
+                if(i==j && arr[i][j] != 1){
+                    flag = false;
+                }
+                if(i!=j && arr[i][j] != 0 ){
+                    flag = false;
+                }
+            }    
+        }
+
+        if(flag){
+            System.out.println("Identity matrix");
+        }
+        else{
+            System.out.println("Not a identity metrix");
+        }
+        
+    }
+
+    void transpose(int arr1[][]){
+
+        int row = arr1.length;
+        int column = arr1[0].length;
+
+        int arr2[][] = new int[column][row];
+
+        for(int i=0; i<row; i++){
+            for(int j=0; j<column; j++){
+                arr2[j][i] = arr1[i][j];
+            }
+        }
+
+        System.out.println("Transpose of given matrix is : ");
+        for(int i=0; i<arr2.length; i++){
+            for(int j=0; j<arr2[0].length; j++){
+                System.out.print(arr2[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 
 }
 
@@ -105,20 +185,24 @@ public class Operations2dArray {
 
         OperationsMatrix obj = new OperationsMatrix();
 
-        int arr1[][] = {{1,2},{3,4},{5,6}};
+        //int arr1[][] = {{1,0},{1,1}};
 
-        int arr2[][] = {{1,2},{3,4}};
+         int arr2[][] = {{1,2,3},{4,5,6}};
 
-        //int arr3[][] = {{1,2},{4,5},{7,8}};
+        // int arr3[][] = {{1,0},{0,1}};
 
 
         //obj.addition(arr1, arr2);
 
         //obj.subtraction(arr1, arr2);
 
-        obj.multi(arr1, arr2);
+        //obj.multi(arr1, arr2);
 
         //obj.isSquareMatrix(arr3);
+
+        //obj.identityMatrix(arr2);
+
+        obj.transpose(arr2);
 
     }
     
