@@ -1,0 +1,16 @@
+
+Manual Test case - Login
+
+Field            Description                                                               
+
+Test Case ID      TC_LOGIN_01                                                               
+Test Case Title   Verify login with invalid password                                            
+Module Name       Login                                                                         
+Precondition      User must be registered                                                       
+Test Steps        Open login page → Enter valid username → Enter invalid password → Click Login 
+Test Data         Username: `admin123`  Password: `wrong123`                               
+Expected Result   Error message should be displayed                                             
+Actual Result     Error message displayed                                                       
+Status            Pass                                                                          
+Remarks           Password validation working correctly                                         
+

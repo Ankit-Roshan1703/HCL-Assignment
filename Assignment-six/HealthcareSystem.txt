@@ -1,0 +1,14 @@
+Manual Test case - logout
+
+ Field           | Description                        
+ ----------------| -------------------------------------- 
+ Test Case ID    | TC_LOGOUT_01                       
+ Test Case Title | Verify logout functionality            
+ Module Name     | Logout                                 
+ Precondition    | User must be logged in                 
+ Test Steps      | Click on Logout button                 
+ Test Data       | N/A                                    
+ Expected Result | User should be logged out successfully 
+ Actual Result   | User logged out successfully           
+ Status          | Pass                                   
+ Remarks         | Logout functionality working correctly 

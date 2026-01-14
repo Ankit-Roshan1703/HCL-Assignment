@@ -1,0 +1,15 @@
+
+Manual Test Case – Search
+
+ Field             |  Description                                                                    
+-------------------| -----------------------------------------------------------------------------------
+ Test Case ID      |  TC_SEARCH_01                                                                   
+ Test Case Title   |  Verify search for available travel options                                         
+ Module Name       |  Search                                                                             
+ Precondition      |  User must be logged in                                                             
+ Test Steps        |  Open search page → Enter source and destination → Select travel date → Click Search
+ Test Data         |  Source: `Delhi`  <br> Destination: `Mumbai`  <br> Date: `20-03-2026`               
+ Expected Result   |  Available travel options should be displayed                                       
+ Actual Result     |  Available travel options displayed                                                 
+ Status            |  Pass                                                                               
+ Remarks           |  Search functionality working correctly                                             

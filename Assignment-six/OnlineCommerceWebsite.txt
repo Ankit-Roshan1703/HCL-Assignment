@@ -1,0 +1,15 @@
+
+Manual Test case - addToCart
+
+   Field            |  Description                        
+  ------------------|-------------------------------------  
+   Test Case ID     | TC_CART_01                         
+   Test Case Title  | Verify add product to cart            
+   Module Name      | Shopping Cart                         
+   Precondition     | User must be logged in                
+   Test Steps       | Select product → Click Add to Cart    
+   Test Data        | Product: `Samsung Mobile`             
+   Expected Result  | Product should be added to cart       
+   Actual Result    | Product added to cart                 
+   Status           | Pass                                  
+   Remarks          | Cart functionality working correctly  

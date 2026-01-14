@@ -1,0 +1,15 @@
+
+Manual Test case - Transfer verification
+
+ Field           | Description                                           
+ ----------------| --------------------------------------------------------- 
+ Test Case ID    | TC_TRANSFER_01                                        
+ Test Case Title | Verify fund transfer to another account                   
+ Module Name     | Fund Transfer                                             
+ Precondition    | User must be logged in and have sufficient balance        
+ Test Steps      | Enter beneficiary details → Enter amount → Click Transfer 
+ Test Data       | Beneficiary Acc No: `9876543210`  <br> Amount: `5000`     
+ Expected Result | Amount should be transferred successfully                 
+ Actual Result   | Amount transferred successfully                           
+ Status          | Pass                                                      
+ Remarks         | Fund transfer working correctly                           
