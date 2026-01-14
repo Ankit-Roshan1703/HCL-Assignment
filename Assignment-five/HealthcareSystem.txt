@@ -1,0 +1,175 @@
+PROJECT REPORT
+
+Healthcare Management System Using Agile Methodology
+
+1. Introduction
+
+A Healthcare Management System is a software application designed to manage healthcare
+related activities such as patient records, appointments, doctor information, billing, 
+and medical history. It helps hospitals and clinics improve efficiency, accuracy, and 
+quality of patient care.
+
+Healthcare requirements often change due to new regulations, medical practices, and 
+patient needs. Agile methodology is well suited for healthcare system development 
+because it supports flexibility, continuous improvement, and regular feedback from users 
+such as doctors, staff, and administrators.
+
+This project focuses on developing a Healthcare Management System using Agile methodology 
+to provide a secure, reliable, and user-friendly healthcare solution.
+
+2. Objectives of the Project
+
+    -> The main objectives of this project are:
+
+    -> To manage patient records digitally
+
+    -> To automate appointment scheduling
+
+    -> To improve communication between patients and healthcare staff
+
+    -> To ensure data accuracy and security
+
+    -> To develop the system using Agile methodology
+
+3. Problem Statement
+
+Traditional healthcare systems rely heavily on manual processes and paperwork, which 
+leads to data loss, errors, and delays in patient care. Existing systems are often 
+difficult to update and do not adapt quickly to new healthcare requirements.
+
+Hence, there is a need for a flexible and scalable Healthcare Management System 
+developed using Agile methodology.
+
+4. Proposed System
+
+The proposed system is a web-based Healthcare Management System developed using Agile 
+methodology. The system is divided into small development cycles called sprints, where 
+each sprint delivers working healthcare features such as patient registration or 
+appointment booking.
+
+Continuous feedback from users is collected after each sprint to improve the system in 
+future iterations.
+
+5. Agile Methodology
+
+Agile is an iterative and incremental software development approach that focuses on 
+delivering working software in small releases.
+
+ -> Key Features of Agile:
+
+    -> Continuous user involvement
+
+    -> Incremental development
+
+    -> Frequent testing
+
+    -> Quick response to changing requirements
+
+6. Agile Development Process
+
+    -> Requirement Gathering – Healthcare requirements are written as user stories
+
+    -> Product Backlog – List of features such as patient records, appointments, billing
+
+    -> Sprint Planning – Selection of features for each sprint
+
+    -> Sprint Development – Design, coding, and testing
+
+    -> Sprint Review & Retrospective – Feedback and process improvement
+
+7. System Architecture
+
+    -> The Healthcare Management System follows a three-tier architecture:
+
+    -> Presentation Layer: Web interface for patients and staff
+
+    -> Business Logic Layer: Healthcare operations and validation
+
+    -> Database Layer: Stores patient, doctor, and medical data
+
+8. System Modules
+
+ -> 8.1 Patient Management
+
+    -> Patient registration
+
+    -> Maintain medical history
+
+ -> 8.2 Doctor Management
+
+    -> Doctor profile management
+
+    -> Schedule management
+
+ -> 8.3 Appointment Management
+
+    -> Book and cancel appointments
+
+    -> Appointment reminders
+
+ -> 8.4 Medical Records
+
+    -> Diagnosis and treatment records
+
+    -> Prescription management
+
+ -> 8.5 Billing and Payments
+
+    -> Generate bills
+
+    -> Payment tracking
+
+ -> 8.6 Admin Module
+
+    -> Manage users and system data
+ 
+    -> Generate reports
+
+9. Tools and Technologies Used
+
+    -> Programming Language: Java / Python
+
+    -> Framework: Spring Boot / Django
+
+    -> Database: MySQL
+
+    -> Frontend: HTML, CSS, JavaScript
+
+    -> Agile Tools: Jira / Trello
+
+    -> Version Control: Git
+
+10. Advantages of Agile-Based Healthcare System
+
+    -> Faster development and deployment
+
+    -> Easy adaptation to new requirements
+
+    -> Improved system quality
+
+    -> Better patient care and satisfaction
+
+11. Limitations
+
+    -> Requires continuous feedback from healthcare staff
+
+    -> Initial project planning is less detailed
+
+    -> Needs skilled Agile development team
+
+12. Future Enhancements
+
+    -> Mobile healthcare application
+
+    -> Telemedicine and video consultation
+
+    -> AI-based disease prediction
+
+    -> Integration with wearable health devices
+
+13. Conclusion
+
+The Healthcare Management System developed using Agile methodology provides an efficient, 
+flexible, and secure solution for modern healthcare needs. Agile enables continuous improvement, 
+faster feature delivery, and better alignment with user requirements. This project demonstrates 
+how Agile methodology enhances healthcare software development.

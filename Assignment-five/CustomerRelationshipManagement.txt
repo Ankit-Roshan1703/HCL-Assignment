@@ -1,0 +1,113 @@
+PROJECT REPORT
+
+Customer Relationship Management
+
+1. Introduction
+
+Customer Relationship Management (CRM) is a system used by organizations to manage 
+customer information, sales activities, and customer support. A CRM system helps 
+improve customer satisfaction and business performance.
+
+Agile methodology is a modern software development approach that focuses on flexibility,
+continuous feedback, and incremental development. Using Agile for CRM development allows
+faster delivery and easy adaptation to changing customer needs.
+
+2. Objective of the Project
+
+The objectives of this mini-project are:
+
+   -> To manage customer data efficiently
+
+   -> To track sales and customer interactions
+
+   -> To improve customer support services
+
+   -> To develop CRM software using Agile methodology
+
+3. Problem Statement
+
+Many organizations face difficulties such as poor customer data management, slow 
+response to customer queries, and inflexible software systems. Traditional development 
+methods cannot quickly adapt to changing requirements. Hence, an Agile-based CRM system 
+is needed.
+
+4. Proposed System
+
+The proposed system is a CRM application developed using Agile methodology. The system 
+is built in small iterations (sprints), allowing continuous improvement based on user 
+feedback. Each sprint delivers a working part of the CRM system.
+
+5. Agile Methodology
+
+Agile is an iterative development approach where software is developed in small cycles 
+called sprints.
+
+    --> Key Agile Features:
+
+  -> Customer involvement
+
+  -> Incremental development
+
+  -> Continuous testing
+
+  ->Quick response to change
+
+6. System Modules
+
+ 6.1 Customer Management
+
+   -> Store and update customer details
+
+   -> Track customer interaction history
+
+ 6.2 Sales Management
+
+    -> Lead tracking
+
+    -> Sales performance monitoring
+
+ 6.3 Support Management
+
+    -> Customer issue tracking
+
+    -> Ticket resolution status
+
+ 6.4 Reporting
+
+    -> Sales and customer reports
+
+7. Tools and Technologies Used
+
+    -> Programming Language: Java / Python
+
+    -> Framework: Spring Boot / Django
+
+    -> Database: MySQL
+
+    -> Frontend: HTML, CSS, JavaScript
+
+    -> Agile Tools: Jira / Trello
+
+8. Advantages of Agile-Based CRM
+
+    -> Faster software delivery
+
+    -> Better customer satisfaction
+
+    -> Easy system enhancement
+
+    -> Reduced development risk
+
+9. Limitations
+
+    -> Requires continuous customer feedback
+
+    -> Initial planning is less detailed
+
+    -> Needs skilled Agile team
+
+10. Conclusion
+
+The CRM system developed using Agile methodology provides an efficient and flexible 
+solution for managing customer relationships. Agile helps deliver high-quality software 
+with continuous improvements, making the system more reliable and user-friendly.

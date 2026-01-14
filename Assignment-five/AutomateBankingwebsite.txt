@@ -1,0 +1,174 @@
+PROJECT REPORT
+
+Automated Banking Website Using Agile Methodology
+
+1. Introduction
+
+An Automated Banking Website is an online system that allows customers to perform banking 
+operations such as checking account balance, transferring money, paying bills, and viewing 
+transaction history without visiting a bank branch.
+
+With the growth of digital banking, customers expect secure, fast, and easy-to-use 
+online services. Agile methodology is suitable for developing an automated banking 
+system because it supports continuous improvement, quick updates, and regular feedback 
+from users.
+
+This project focuses on developing an Automated Banking Website using Agile methodology 
+to provide secure, reliable, and user-friendly banking services.
+
+2. Objectives of the Project
+
+ -> The main objectives of this project are:
+
+    -> To automate basic banking operations
+
+    -> To provide secure online banking services
+
+    -> To reduce manual work and paperwork
+
+    -> To improve customer convenience and satisfaction
+
+    -> To develop the system using Agile methodology
+
+3. Problem Statement
+
+Traditional banking systems require customers to visit branches for many services, which 
+is time-consuming. Existing systems are often slow to update and difficult to modify 
+when requirements change.
+
+Therefore, there is a need for a flexible and secure automated banking website developed 
+using Agile methodology to meet changing customer needs efficiently.
+
+4. Proposed System
+
+The proposed system is a web-based Automated Banking Website developed using Agile methodology. 
+The system is developed in small iterations called sprints, where each sprint delivers 
+working banking features such as login, balance enquiry, or fund transfer.
+
+User feedback is collected after every sprint and used to improve the system in the next 
+iteration.
+
+5. Agile Methodology
+
+Agile is an iterative and incremental software development approach that focuses on 
+delivering working software quickly and continuously.
+
+ -> Key Features of Agile:
+
+    -> Customer collaboration
+
+    -> Incremental development
+
+    -> Continuous testing
+
+    -> Quick response to requirement changes
+
+6. Agile Development Process
+
+    -> Requirement Gathering – Banking features are identified as user stories
+
+    -> Product Backlog – List of features like login, transfer, transaction history
+
+    -> Sprint Planning – Selection of features for each sprint
+
+    -> Sprint Execution – Development and testing
+
+    -> Sprint Review & Retrospective – Feedback and improvements
+
+7. System Architecture
+
+    -> The Automated Banking Website follows a three-tier architecture:
+
+    -> Presentation Layer: Web interface for users
+
+    -> Business Logic Layer: Banking operations and validation
+
+    -> Database Layer: Stores customer and transaction data
+
+8. System Modules
+
+ -> 8.1 User Authentication
+
+    -> Secure login and logout
+
+    -> Password encryption
+
+ -> 8.2 Account Management
+
+    -> View account details
+
+    -> Balance enquiry
+
+ -> 8.3 Fund Transfer
+
+    -> Transfer money between accounts
+
+    -> Transaction confirmation
+
+ -> 8.4 Transaction History
+
+    -> View previous transactions
+
+    -> Download statements
+
+ -> 8.5 Bill Payment
+
+    -> Pay utility bills online
+
+ -> 8.6 Admin Module
+
+    -> Manage users and accounts
+
+    -> Monitor transactions
+
+9. Tools and Technologies Used
+
+    -> Programming Language: Java / Python
+
+Framework: Spring Boot / Django
+
+    -> Database: MySQL
+
+    -> Frontend: HTML, CSS, JavaScript
+
+    -> Agile Tools: Jira / Trello
+
+    -> Version Control: Git
+
+10. Advantages of Agile-Based Banking System
+
+    -> Faster feature delivery
+
+    -> High system security
+
+    -> Easy system enhancement
+
+    -> Better customer experience
+
+    -> Reduced operational cost
+
+11. Limitations
+
+    -> Requires continuous user feedback
+
+    -> Initial planning is less detailed
+
+    -> Depends on skilled Agile team
+
+12. Future Enhancements
+
+    -> Mobile banking application
+
+    -> Biometric authentication
+
+    -> AI-based fraud detection
+
+    -> Integration with digital wallets
+
+13. Conclusion
+
+The Automated Banking Website developed using Agile methodology provides a secure, 
+flexible, and efficient solution for modern banking needs. Agile enables continuous 
+improvement, faster delivery, and better adaptation to changing requirements. This 
+project demonstrates how Agile methodology improves the development of reliable banking 
+systems.
